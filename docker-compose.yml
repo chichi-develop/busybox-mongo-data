@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+
+  data:
+    container_name: mongo-data
+    build:
+      context: ./
+
